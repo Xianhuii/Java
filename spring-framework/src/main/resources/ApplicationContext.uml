@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.context.ApplicationContext</OriginalElement>
+  <nodes>
+    <node x="-383.0" y="52.0">org.springframework.beans.factory.config.BeanDefinition</node>
+    <node x="-50.0" y="148.0">org.springframework.core.env.Environment</node>
+    <node x="-787.0" y="-7.0">org.springframework.context.annotation.ClassPathBeanDefinitionScanner</node>
+    <node x="-142.0" y="52.0">org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
+    <node x="288.5" y="96.0">org.springframework.beans.factory.config.BeanPostProcessor</node>
+    <node x="-74.5" y="-44.0">org.springframework.context.ApplicationContext</node>
+    <node x="-50.5" y="-140.0">org.springframework.beans.factory.BeanFactory</node>
+    <node x="-787.0" y="52.0">org.springframework.context.annotation.AnnotatedBeanDefinitionReader</node>
+    <node x="-91.0" y="210.5">org.springframework.context.ApplicationListener</node>
+    <node x="-106.5" y="273.0">org.springframework.beans.factory.config.BeanFactoryPostProcessor</node>
+    <node x="340.0" y="-84.0">org.springframework.beans.factory.config.Scope</node>
+    <node x="299.0" y="6.0">org.springframework.beans.factory.FactoryBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.BeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.ApplicationContext" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="-138.0" y="90.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

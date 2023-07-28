@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.beans.factory.BeanFactory</OriginalElement>
+  <nodes>
+    <node x="-1080.5" y="142.0">org.springframework.beans.factory.config.BeanDefinition</node>
+    <node x="-776.0" y="64.0">org.springframework.beans.factory.BeanFactory</node>
+    <node x="-1463.0" y="69.0">org.springframework.context.annotation.ClassPathBeanDefinitionScanner</node>
+    <node x="-497.0" y="215.0">org.springframework.beans.factory.config.BeanPostProcessor</node>
+    <node x="-452.33333333333337" y="60.33333333333337">org.springframework.beans.factory.config.Scope</node>
+    <node x="-486.5" y="138.0">org.springframework.beans.factory.FactoryBean</node>
+    <node x="-834.0" y="142.0">org.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+    <node x="-1463.0" y="215.0">org.springframework.beans.factory.support.BeanDefinitionReader</node>
+    <node x="-1463.0" y="142.0">org.springframework.context.annotation.AnnotatedBeanDefinitionReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.BeanFactory" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="-868.9999999999999" y="161.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
