@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-framework" />
+        <module name="spring-boot" />
+        <module name="spring-boot-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
