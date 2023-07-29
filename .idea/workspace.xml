@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b39a4988-b6e9-4a9e-a169-253b44ef1e9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-framework/src/main/java/applicationcontext/AnnotationConfigApplicationContextAnnotatedBeanDefinitionReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework/src/main/java/applicationcontext/AnnotationConfigApplicationContextClassPathBeanDefinitionReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework/src/main/java/aop/ApplicationContextAOPDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework/src/main/java/aop/BeanFactoryAOPDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework/src/main/java/aop/annotation/Aop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework/src/main/java/aop/aspect/AspectBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework/src/main/java/aop/bean/BeanA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework/src/main/java/aop/config/AOPConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework/src/main/java/common/bean/BeanB.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework/src/main/java/common/bean/BeanB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -41,49 +49,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "F:/java/spring-framework/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
-    "spring.configuration.checksum": "9dc3a29d9455b1916d71d440caa1fb7b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/spring-framework/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9dc3a29d9455b1916d71d440caa1fb7b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="aop" />
       <recent name="applicationcontext" />
       <recent name="common.bean" />
       <recent name="beanfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationConfigApplicationContextClassPathBeanDefinitionReaderDemo">
-    <configuration name="AnnotationConfigApplicationContextAnnotatedBeanDefinitionReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="applicationcontext.AnnotationConfigApplicationContextAnnotatedBeanDefinitionReaderDemo" />
-      <module name="spring-framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="applicationcontext.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BeanFactoryAOPDemo">
     <configuration name="AnnotationConfigApplicationContextClassPathBeanDefinitionReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="applicationcontext.AnnotationConfigApplicationContextClassPathBeanDefinitionReaderDemo" />
       <module name="spring-framework" />
@@ -97,8 +93,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanFactoryBeanPostProcessorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beanfactory.BeanFactoryBeanPostProcessorDemo" />
+    <configuration name="ApplicationContextAOPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aop.ApplicationContextAOPDemo" />
+      <module name="spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanFactoryAOPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aop.BeanFactoryAOPDemo" />
+      <module name="spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanFactoryAnnotatedBeanDefinitionReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beanfactory.BeanFactoryAnnotatedBeanDefinitionReaderDemo" />
       <module name="spring-framework" />
       <extension name="coverage">
         <pattern>
@@ -110,21 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanFactoryFactoryBeanDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beanfactory.BeanFactoryFactoryBeanDemo" />
-      <module name="spring-framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beanfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanFactoryFactoryBeanScopeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beanfactory.BeanFactoryFactoryBeanScopeDemo" />
+    <configuration name="BeanFactoryClassPathBeanDefinitionScannerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beanfactory.BeanFactoryClassPathBeanDefinitionScannerDemo" />
       <module name="spring-framework" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanFactoryAOPDemo" />
+        <item itemvalue="Application.ApplicationContextAOPDemo" />
+        <item itemvalue="Application.BeanFactoryClassPathBeanDefinitionScannerDemo" />
+        <item itemvalue="Application.BeanFactoryAnnotatedBeanDefinitionReaderDemo" />
         <item itemvalue="Application.AnnotationConfigApplicationContextClassPathBeanDefinitionReaderDemo" />
-        <item itemvalue="Application.AnnotationConfigApplicationContextAnnotatedBeanDefinitionReaderDemo" />
-        <item itemvalue="Application.BeanFactoryBeanPostProcessorDemo" />
-        <item itemvalue="Application.BeanFactoryFactoryBeanScopeDemo" />
-        <item itemvalue="Application.BeanFactoryFactoryBeanDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +164,8 @@
       <option name="presentableId" value="Default" />
       <updated>1690450724151</updated>
       <workItem from="1690450725157" duration="8800000" />
-      <workItem from="1690532127089" duration="6640000" />
+      <workItem from="1690532127089" duration="8828000" />
+      <workItem from="1690595965193" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="beanfactory">
       <option name="closed" value="true" />
@@ -173,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690537866693</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="applicationcontext">
+      <option name="closed" value="true" />
+      <created>1690553184757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690553184757</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +199,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="beanfactory" />
-    <option name="LAST_COMMIT_MESSAGE" value="beanfactory" />
+    <MESSAGE value="applicationcontext" />
+    <option name="LAST_COMMIT_MESSAGE" value="applicationcontext" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.18/spring-context-5.3.18-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java</url>
+          <line>257</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.18/spring-context-5.3.18-sources.jar!/org/springframework/context/annotation/AnnotationConfigUtils.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
