@@ -7,6 +7,10 @@
         <option value="$PROJECT_DIR$/spring-framework/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-starter/pom.xml" />
       </list>
     </option>
   </component>
