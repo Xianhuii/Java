@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-spring/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-openfeign/pom.xml" />
       </list>
     </option>
   </component>
