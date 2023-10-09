@@ -14,10 +14,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.shiro</groupId>-->
+        <!--            <artifactId>shiro-all</artifactId>-->
+        <!--            <version>1.12.0</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-all</artifactId>
+            <artifactId>shiro-core</artifactId>
             <version>1.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.21</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.7.21</version>
         </dependency>
     </dependencies>
 </project>

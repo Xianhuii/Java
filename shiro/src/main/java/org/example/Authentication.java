@@ -11,10 +11,10 @@ public class Authentication {
         token.setRememberMe(true);
 
         // 认证
-        Subject subject = SecurityUtils.getSubject();
-        subject.login(token);
+        Subject currentUser = SecurityUtils.getSubject();
+        currentUser.login(token);
 
         // 退出
-        subject.logout();
+        currentUser.logout();
     }
 }
