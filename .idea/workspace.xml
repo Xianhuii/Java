@@ -5,12 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b39a4988-b6e9-4a9e-a169-253b44ef1e9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-nacos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-nacos/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/src/main/java/org/example/feign/Service1Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/org/example/bootstrap/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/org/example/bootstrap/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/org/example/handler/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/org/example/handler/FirstClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/org/example/handler/FirstServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/org/example/main/BIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/org/example/main/NIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/org/example/main/NettyClientBootStrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/org/example/main/NettyServerBootStrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/com/example/javafx/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/com/example/javafx/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/com/example/javafx/application/AnchorPaneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/com/example/javafx/application/BorderPaneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/com/example/javafx/application/GridPaneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/com/example/javafx/application/MyShapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/com/example/javafx/application/StackPaneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/resources/com/example/javafx/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro/src/main/java/org/example/Authentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,53 +89,67 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2T9MDWSKLTbxeBNyWHkQJQvTn0e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
-    "JavaVariableFindUsagesOptions.isSearchForBaseAccessors": "true",
-    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "F:/java/spring-boot-starter/src/main/resources/META-INF/spring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "04ebb14c539a186d2f6e6e994420e647",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isImplementingMethods&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
+    &quot;JavaVariableFindUsagesOptions.isSearchForBaseAccessors&quot;: &quot;true&quot;,
+    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/shiro&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;04ebb14c539a186d2f6e6e994420e647&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\shiro" />
       <recent name="F:\java\spring-boot-starter\src\main\resources\META-INF\spring" />
       <recent name="F:\java\spring-boot-starter\src\main\resources\META-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.javafx.application" />
       <recent name="org.example.runner" />
       <recent name="aop" />
       <recent name="applicationcontext" />
       <recent name="common.bean" />
-      <recent name="beanfactory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -121,13 +159,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main (2)">
-    <configuration name="BeanFactoryAOPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aop.BeanFactoryAOPDemo" />
-      <module name="spring-framework" />
+  <component name="RunManager" selected="Application.Authentication">
+    <configuration name="AnchorPaneMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javafx.application.AnchorPaneMain" />
+      <module name="javafx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aop.*" />
+          <option name="PATTERN" value="com.example.javafx.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,9 +173,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="mybatis" />
+    <configuration name="Authentication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Authentication" />
+      <module name="shiro" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -148,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-nacos" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
+    <configuration name="BorderPaneMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javafx.application.BorderPaneMain" />
+      <module name="javafx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.example.javafx.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-openfeign" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
+    <configuration name="GridPaneMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javafx.application.GridPaneMain" />
+      <module name="javafx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.example.javafx.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
+    <configuration name="StackPaneMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javafx.application.StackPaneMain" />
+      <module name="javafx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.example.javafx.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Main (2)" />
-        <item itemvalue="Spring Boot.Main (1)" />
-        <item itemvalue="Spring Boot.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BeanFactoryAOPDemo" />
+        <item itemvalue="Application.Authentication" />
+        <item itemvalue="Application.BorderPaneMain" />
+        <item itemvalue="Application.GridPaneMain" />
+        <item itemvalue="Application.AnchorPaneMain" />
+        <item itemvalue="Application.StackPaneMain" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +262,22 @@
       <workItem from="1692885519625" duration="952000" />
       <workItem from="1692886488404" duration="2691000" />
       <workItem from="1692977600679" duration="124000" />
+      <workItem from="1693108303937" duration="10255000" />
+      <workItem from="1693145764432" duration="1995000" />
+      <workItem from="1693229090923" duration="2587000" />
+      <workItem from="1693232360971" duration="2047000" />
+      <workItem from="1693314582320" duration="2420000" />
+      <workItem from="1693394028974" duration="613000" />
+      <workItem from="1693487521220" duration="3811000" />
+      <workItem from="1693567031318" duration="1170000" />
+      <workItem from="1693625317949" duration="6124000" />
+      <workItem from="1693834024796" duration="3577000" />
+      <workItem from="1693917536003" duration="4601000" />
+      <workItem from="1694007298948" duration="663000" />
+      <workItem from="1694092117291" duration="9000" />
+      <workItem from="1694317642975" duration="5779000" />
+      <workItem from="1696772721469" duration="2727000" />
+      <workItem from="1696849390268" duration="4232000" />
     </task>
     <task id="LOCAL-00001" summary="beanfactory">
       <option name="closed" value="true" />
@@ -273,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692024804687</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spring cloud">
+      <option name="closed" value="true" />
+      <created>1693108372622</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693108372622</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +347,8 @@
     <MESSAGE value="aop" />
     <MESSAGE value="spring-boot" />
     <MESSAGE value="mybatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
+    <MESSAGE value="spring cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring cloud" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -325,11 +388,19 @@
           <line>115</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.1.1/mybatis-spring-2.1.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java</url>
+          <line>690</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java$.ic" NAME=" Coverage Results" MODIFIED="1693662434694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

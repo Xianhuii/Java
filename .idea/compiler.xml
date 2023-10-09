@@ -10,10 +10,13 @@
         <module name="spring-cloud-openfeign" />
         <module name="spring-boot-starter" />
         <module name="spring-cloud-starter" />
+        <module name="shiro" />
         <module name="mybatis" />
         <module name="spring-framework" />
         <module name="spring-boot-mybatis" />
+        <module name="Netty" />
         <module name="spring-boot" />
+        <module name="javafx" />
         <module name="mybatis-spring" />
         <module name="spring-cloud-nacos" />
       </profile>

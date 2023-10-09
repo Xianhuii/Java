@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/spring-cloud-starter/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-openfeign/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty/pom.xml" />
+        <option value="$PROJECT_DIR$/javafx/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro/pom.xml" />
       </list>
     </option>
   </component>
